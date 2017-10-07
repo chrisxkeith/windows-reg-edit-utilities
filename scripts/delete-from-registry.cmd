@@ -1,279 +1,93 @@
-rem ----- to come
+rem ----- in progress
 
 exit /b 0
 
-HKEY_LOCAL_MACHINE\DRIVERS\DriverDatabase\DriverInfFiles\oem0.inf
-    (Default)    REG_MULTI_SZ    hpljp1005.inf_amd64_177ef1098e88156c
-    Active    REG_SZ    hpljp1005.inf_amd64_177ef1098e88156c
-
-HKEY_LOCAL_MACHINE\DRIVERS\DriverDatabase\DriverInfFiles\oem45.inf
-    (Default)    REG_MULTI_SZ    hpljp1005.inf_amd64_7939d1f6fd74f7cc
-    Active    REG_SZ    hpljp1005.inf_amd64_7939d1f6fd74f7cc
-
-HKEY_LOCAL_MACHINE\DRIVERS\DriverDatabase\DriverPackages\hpljp1005.inf_amd64_177ef1098e88156c
-    InfName    REG_SZ    hpljp1005.inf
-
-HKEY_LOCAL_MACHINE\DRIVERS\DriverDatabase\DriverPackages\hpljp1005.inf_amd64_7939d1f6fd74f7cc
-    InfName    REG_SZ    hpljp1005.INF
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemDrive%/Program Files/HP/HP LaserJet P1000_P1500 Series/P1005DP.PRN
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/P1005.IMG
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{7F2E1C45-3FF3-4841-AD51-BD7F8FFEB38F}/P1005.img
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{7F2E1C45-3FF3-4841-AD51-BD7F8FFEB38F}/P1005DP.PRN
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{EA8B8442-04B5-44D4-A72A-E83046370988}/P1005.img
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{EA8B8442-04B5-44D4-A72A-E83046370988}/P1005DP.PRN
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\PackageInstallation\Windows x64\DriverPackages\hpljp1005.inf_amd64_7939d1f6fd74f7cc
-    DriverStorePath    REG_SZ    C:\WINDOWS\System32\DriverStore\FileRepository\hpljp1005.inf_amd64_7939d1f6fd74f7cc\hpljp1005.inf
-    CabPath    REG_SZ    C:\WINDOWS\system32\spool\DRIVERS\x64\PCC\hpljp1005.inf_amd64_7939d1f6fd74f7cc.cab
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\HP LaserJet P1005
-    Name    REG_SZ    HP LaserJet P1005
-    Printer Driver    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\HP LaserJet P1005\DsSpooler
-    driverName    REG_SZ    HP LaserJet P1005
-    printerName    REG_SZ    HP LaserJet P1005
-    uNCName    REG_SZ    \\Dell-XPS-2012\HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\HP LaserJet P1005\PnPData
-    DeviceInstanceId    REG_SZ    USBPRINT\HEWLETT-PACKARDHP_LASERJET_P1005\7&3A72D34C&0&USB001
-
-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\SecurityDescriptors\HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemDrive%/Program Files/HP/HP LaserJet P1000_P1500 Series/P1005DP.PRN
-
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/P1005.IMG
-
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{7F2E1C45-3FF3-4841-AD51-BD7F8FFEB38F}/P1005.img
-
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{7F2E1C45-3FF3-4841-AD51-BD7F8FFEB38F}/P1005DP.PRN
-
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{EA8B8442-04B5-44D4-A72A-E83046370988}/P1005.img
-
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{EA8B8442-04B5-44D4-A72A-E83046370988}/P1005DP.PRN
-
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Print\PackageInstallation\Windows x64\DriverPackages\hpljp1005.inf_amd64_7939d1f6fd74f7cc
-    DriverStorePath    REG_SZ    C:\WINDOWS\System32\DriverStore\FileRepository\hpljp1005.inf_amd64_7939d1f6fd74f7cc\hpljp1005.inf
-    CabPath    REG_SZ    C:\WINDOWS\system32\spool\DRIVERS\x64\PCC\hpljp1005.inf_amd64_7939d1f6fd74f7cc.cab
-
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Print\Printers\HP LaserJet P1005
-    Name    REG_SZ    HP LaserJet P1005
-    Printer Driver    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Print\Printers\HP LaserJet P1005\DsSpooler
-    driverName    REG_SZ    HP LaserJet P1005
-    printerName    REG_SZ    HP LaserJet P1005
-    uNCName    REG_SZ    \\Dell-XPS-2012\HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Print\Printers\HP LaserJet P1005\PnPData
-    DeviceInstanceId    REG_SZ    USBPRINT\HEWLETT-PACKARDHP_LASERJET_P1005\7&3A72D34C&0&USB001
-
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Print\SecurityDescriptors\HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e979-e325-11ce-bfc1-08002be10318}\0000
-    DriverDesc    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{0ACA825D-057E-4785-929A-8AC47E23F886}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters
-    FriendlyName    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DeviceClasses\{28d78fad-5a12-11d1-ae5b-0000f803a8c2}\##?#USB#VID_03F0&PID_3D17#BB0GXHD#{28d78fad-5a12-11d1-ae5b-0000f803a8c2}\#\Device Parameters
-    Port Description    REG_SZ    Hewlett-PackardHP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DeviceContainers\{69531f70-8760-5669-b3ea-ca60d8d1109e}\BaseContainers\{69531f70-8760-5669-b3ea-ca60d8d1109e}
-    USBPRINT\Hewlett-PackardHP_LaserJet_P1005\7&3a72d34c&0&USB001    REG_NONE
-
-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Print\Environments\Windows x64\Drivers\Version-3\HP LaserJet P1005
-    InfPath    REG_SZ    C:\WINDOWS\System32\DriverStore\FileRepository\hpljp1005.inf_amd64_7939d1f6fd74f7cc\hpljp1005.inf
-
-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Print\Printers\HP LaserJet P1005
-    Name    REG_SZ    HP LaserJet P1005
-    Printer Driver    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Print\Printers\HP LaserJet P1005\DsSpooler
-    driverName    REG_SZ    HP LaserJet P1005
-    printerName    REG_SZ    HP LaserJet P1005
-    uNCName    REG_SZ    \\Dell-XPS-2012\HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Print\Printers\HP LaserJet P1005\PnPData
-    DeviceInstanceId    REG_SZ    USBPRINT\HEWLETT-PACKARDHP_LASERJET_P1005\7&3A72D34C&0&USB001
-
-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\SWD\PRINTENUM\{0ACA825D-057E-4785-929A-8AC47E23F886}
-    FriendlyName    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\USBPRINT\Hewlett-PackardHP_LaserJet_P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\USBPRINT\Hewlett-PackardHP_LaserJet_P1005\7&3a72d34c&0&USB001
-    DeviceDesc    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Hardware Profiles\0001\System\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Hardware Profiles\Current\System\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\Setup\Upgrade\Pnp\CurrentControlSet\Control\DeviceMigration\Classes\{4d36e979-e325-11ce-bfc1-08002be10318}
-    USBPRINT\Hewlett-PackardHP_LaserJet_P1005\7&3a72d34c&0&USB003    REG_NONE
-
-HKEY_LOCAL_MACHINE\SYSTEM\Setup\Upgrade\Pnp\CurrentControlSet\Control\DeviceMigration\Devices\SWD\PRINTENUM\{F98DF384-290F-4296-974C-1FAE3CE118FD}\Interfaces\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\Device
-    FriendlyName    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\Setup\Upgrade\Pnp\CurrentControlSet\Control\DeviceMigration\Devices\USB\VID_03F0&PID_3D17\BB0GXHD
-    BusDeviceDesc    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\Setup\Upgrade\Pnp\CurrentControlSet\Control\DeviceMigration\Devices\USB\VID_03F0&PID_3D17\BB0GXHD\Interfaces\{28d78fad-5a12-11d1-ae5b-0000f803a8c2}\Device
-    Port Description    REG_SZ    Hewlett-PackardHP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\Setup\Upgrade\Pnp\CurrentControlSet\Control\DeviceMigration\Devices\USBPRINT\Hewlett-PackardHP_LaserJet_P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\Setup\Upgrade\Pnp\CurrentControlSet\Control\DeviceMigration\Devices\USBPRINT\Hewlett-PackardHP_LaserJet_P1005\7&3a72d34c&0&USB003
-    BusDeviceDesc    REG_SZ    Hewlett-PackardHP LaserJet P1005
-    DriverInfName    REG_SZ    hpljp1005.inf
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e979-e325-11ce-bfc1-08002be10318}\0000
-    DriverDesc    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{0ACA825D-057E-4785-929A-8AC47E23F886}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters
-    FriendlyName    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceClasses\{28d78fad-5a12-11d1-ae5b-0000f803a8c2}\##?#USB#VID_03F0&PID_3D17#BB0GXHD#{28d78fad-5a12-11d1-ae5b-0000f803a8c2}\#\Device Parameters
-    Port Description    REG_SZ    Hewlett-PackardHP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceContainers\{69531f70-8760-5669-b3ea-ca60d8d1109e}\BaseContainers\{69531f70-8760-5669-b3ea-ca60d8d1109e}
-    USBPRINT\Hewlett-PackardHP_LaserJet_P1005\7&3a72d34c&0&USB001    REG_NONE
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Environments\Windows x64\Drivers\Version-3\HP LaserJet P1005
-    InfPath    REG_SZ    C:\WINDOWS\System32\DriverStore\FileRepository\hpljp1005.inf_amd64_7939d1f6fd74f7cc\hpljp1005.inf
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005
-    Name    REG_SZ    HP LaserJet P1005
-    Printer Driver    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005\DsSpooler
-    driverName    REG_SZ    HP LaserJet P1005
-    printerName    REG_SZ    HP LaserJet P1005
-    uNCName    REG_SZ    \\Dell-XPS-2012\HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005\PnPData
-    DeviceInstanceId    REG_SZ    USBPRINT\HEWLETT-PACKARDHP_LASERJET_P1005\7&3A72D34C&0&USB001
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\SWD\PRINTENUM\{0ACA825D-057E-4785-929A-8AC47E23F886}
-    FriendlyName    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USBPRINT\Hewlett-PackardHP_LaserJet_P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USBPRINT\Hewlett-PackardHP_LaserJet_P1005\7&3a72d34c&0&USB001
-    DeviceDesc    REG_SZ    HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Hardware Profiles\0001\System\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Hardware Profiles\Current\System\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005
-
-End of search: 85 match(es) found.
-
-C:\Users\Oona\Documents\z_other_programs>REG QUERY HKCU /s /f "P1005"
-
-HKEY_CURRENT_USER\Printers\Defaults\{499E3A16-9856-4A55-8547-F0DEA3F6BFB5}
-    (Default)    REG_SZ    HP LaserJet P1005 (Copy 1)
-
-HKEY_CURRENT_USER\Printers\Defaults\{BC43E44A-84DD-4492-A739-81AA01168E49}
-    (Default)    REG_SZ    HP LaserJet P1005
-
-HKEY_CURRENT_USER\Printers\Settings
-    HP LaserJet P1005    REG_BINARY    070000000D000B0003001400160010000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000E000000050000000500000003C000000640000008C0000007800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF3C02000061000000E6050000290100000000000000000000000000000100000002000000030000000400000005000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-    HP LaserJet P1005 (Copy 1)    REG_BINARY    070000000D000B0003001400160010000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C80000000E010000500000003C000000640000008C0000007800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002C00000000000000010000000000000000000000FFFFFFFFFFFFFFFF3200000063000000930400005F0200000100000000000000000000000100000002000000030000000400000005000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-
-HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\DefaultPrinter
-    DefaultPrinterStore    REG_SZ    HP LaserJet P1005
-
-HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Devices
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:
-
-HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:,15,45
-
-HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows
-    Device    REG_SZ    HP LaserJet P1005,winspool,Ne02:
-
-End of search: 8 match(es) found.
-
-C:\Users\Oona\Documents\z_other_programs>REG QUERY HKCR /s /f "P1005"
-
-End of search: 0 match(es) found.
-
-C:\Users\Oona\Documents\z_other_programs>REG QUERY HKU /s /f "P1005"
-
-HKEY_USERS\.DEFAULT\Printers\Defaults\{499E3A16-9856-4A55-8547-F0DEA3F6BFB5}
-    (Default)    REG_SZ    HP LaserJet P1005
-
-HKEY_USERS\.DEFAULT\Software\Microsoft\TelemetryClient\ThrottleStore\watson\generic\generic\pnpdriverinstallerror
-    p1x64p2000006bep3hpljp1005.infp49e98a79327ec7eb2abb8f28ef97675b6dc08c840p5hp1006    REG_QWORD    0xffffffffffffffff
-
-HKEY_USERS\.DEFAULT\Software\Microsoft\Windows NT\CurrentVersion\Devices
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:
-
-HKEY_USERS\.DEFAULT\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:,15,45
-
-HKEY_USERS\.DEFAULT\Software\Microsoft\Windows NT\CurrentVersion\Windows
-    Device    REG_SZ    HP LaserJet P1005,winspool,Ne02:
-
-HKEY_USERS\S-1-5-19\Software\Microsoft\Windows NT\CurrentVersion\Devices
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:
-
-HKEY_USERS\S-1-5-19\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:,15,45
-
-HKEY_USERS\S-1-5-20\Software\Microsoft\Windows NT\CurrentVersion\Devices
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:
-
-HKEY_USERS\S-1-5-20\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:,15,45
-
-HKEY_USERS\S-1-5-21-1404873359-3827526372-2707906999-1000\Software\Microsoft\Windows NT\CurrentVersion\Devices
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:
-
-HKEY_USERS\S-1-5-21-1404873359-3827526372-2707906999-1000\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:,15,45
-
-HKEY_USERS\S-1-5-21-1404873359-3827526372-2707906999-1004\Printers\Defaults\{499E3A16-9856-4A55-8547-F0DEA3F6BFB5}
-    (Default)    REG_SZ    HP LaserJet P1005 (Copy 1)
-
-HKEY_USERS\S-1-5-21-1404873359-3827526372-2707906999-1004\Printers\Defaults\{BC43E44A-84DD-4492-A739-81AA01168E49}
-    (Default)    REG_SZ    HP LaserJet P1005
-
-HKEY_USERS\S-1-5-21-1404873359-3827526372-2707906999-1004\Printers\Settings
-    HP LaserJet P1005    REG_BINARY    070000000D000B0003001400160010000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000E000000050000000500000003C000000640000008C0000007800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF3C02000061000000E6050000290100000000000000000000000000000100000002000000030000000400000005000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-    HP LaserJet P1005 (Copy 1)    REG_BINARY    070000000D000B0003001400160010000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C80000000E010000500000003C000000640000008C0000007800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002C00000000000000010000000000000000000000FFFFFFFFFFFFFFFF3200000063000000930400005F0200000100000000000000000000000100000002000000030000000400000005000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-
-HKEY_USERS\S-1-5-21-1404873359-3827526372-2707906999-1004\Software\Microsoft\Terminal Server Client\DefaultPrinter
-    DefaultPrinterStore    REG_SZ    HP LaserJet P1005
-
-HKEY_USERS\S-1-5-21-1404873359-3827526372-2707906999-1004\Software\Microsoft\Windows NT\CurrentVersion\Devices
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:
-
-HKEY_USERS\S-1-5-21-1404873359-3827526372-2707906999-1004\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:,15,45
-
-HKEY_USERS\S-1-5-21-1404873359-3827526372-2707906999-1004\Software\Microsoft\Windows NT\CurrentVersion\Windows
-    Device    REG_SZ    HP LaserJet P1005,winspool,Ne02:
-
-HKEY_USERS\S-1-5-18\Printers\Defaults\{499E3A16-9856-4A55-8547-F0DEA3F6BFB5}
-    (Default)    REG_SZ    HP LaserJet P1005
-
-HKEY_USERS\S-1-5-18\Software\Microsoft\TelemetryClient\ThrottleStore\watson\generic\generic\pnpdriverinstallerror
-    p1x64p2000006bep3hpljp1005.infp49e98a79327ec7eb2abb8f28ef97675b6dc08c840p5hp1006    REG_QWORD    0xffffffffffffffff
-
-HKEY_USERS\S-1-5-18\Software\Microsoft\Windows NT\CurrentVersion\Devices
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:
-
-HKEY_USERS\S-1-5-18\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts
-    HP LaserJet P1005    REG_SZ    winspool,Ne02:,15,45
-
-HKEY_USERS\S-1-5-18\Software\Microsoft\Windows NT\CurrentVersion\Windows
-    Device    REG_SZ    HP LaserJet P1005,winspool,Ne02:
-
-HKEY_CURRENT_CONFIG\System\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005
+reg delete /f "HKLM\DRIVERS\DriverDatabase\DriverInfFiles\oem0.inf"
+reg delete /f "HKLM\DRIVERS\DriverDatabase\DriverInfFiles\oem45.inf"
+reg delete /f "HKLM\DRIVERS\DriverDatabase\DriverPackages\hpljp1005.inf_amd64_177ef1098e88156c"
+reg delete /f "HKLM\DRIVERS\DriverDatabase\DriverPackages\hpljp1005.inf_amd64_7939d1f6fd74f7cc"
+reg delete /f "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemDrive%/Program Files/HP/HP LaserJet P1000_P1500 Series/P1005DP.PRN"
+reg delete /f "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/P1005.IMG"
+reg delete /f "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{7F2E1C45-3FF3-4841-AD51-BD7F8FFEB38F}/P1005.img"
+reg delete /f "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{7F2E1C45-3FF3-4841-AD51-BD7F8FFEB38F}/P1005DP.PRN"
+reg delete /f "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{EA8B8442-04B5-44D4-A72A-E83046370988}/P1005.img"
+reg delete /f "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{EA8B8442-04B5-44D4-A72A-E83046370988}/P1005DP.PRN"
+reg delete /f "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\PackageInstallation\Windows x64\DriverPackages\hpljp1005.inf_amd64_7939d1f6fd74f7cc"
+reg delete /f "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\HP LaserJet P1005"
+reg delete /f "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\HP LaserJet P1005\DsSpooler"
+reg delete /f "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\Printers\HP LaserJet P1005\PnPData"
+reg delete /f "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Print\SecurityDescriptors\HP LaserJet P1005"
+reg delete /f "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemDrive%/Program Files/HP/HP LaserJet P1000_P1500 Series/P1005DP.PRN"
+reg delete /f "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/P1005.IMG"
+reg delete /f "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{7F2E1C45-3FF3-4841-AD51-BD7F8FFEB38F}/P1005.img"
+reg delete /f "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{7F2E1C45-3FF3-4841-AD51-BD7F8FFEB38F}/P1005DP.PRN"
+reg delete /f "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{EA8B8442-04B5-44D4-A72A-E83046370988}/P1005.img"
+reg delete /f "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles\%SystemRoot%/system32/spool/DRIVERS/x64/{EA8B8442-04B5-44D4-A72A-E83046370988}/P1005DP.PRN"
+reg delete /f "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Print\PackageInstallation\Windows x64\DriverPackages\hpljp1005.inf_amd64_7939d1f6fd74f7cc"
+reg delete /f "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Print\Printers\HP LaserJet P1005"
+reg delete /f "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Print\Printers\HP LaserJet P1005\DsSpooler"
+reg delete /f "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Print\Printers\HP LaserJet P1005\PnPData"
+reg delete /f "HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Print\SecurityDescriptors\HP LaserJet P1005"
+reg delete /f "HKLM\SYSTEM\ControlSet001\Control\Class\{4d36e979-e325-11ce-bfc1-08002be10318}\0000"
+reg delete /f "HKLM\SYSTEM\ControlSet001\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{0ACA825D-057E-4785-929A-8AC47E23F886}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters"
+reg delete /f "HKLM\SYSTEM\ControlSet001\Control\DeviceClasses\{28d78fad-5a12-11d1-ae5b-0000f803a8c2}\##?#USB#VID_03F0&PID_3D17#BB0GXHD#{28d78fad-5a12-11d1-ae5b-0000f803a8c2}\#\Device Parameters"
+reg delete /f "HKLM\SYSTEM\ControlSet001\Control\DeviceContainers\{69531f70-8760-5669-b3ea-ca60d8d1109e}\BaseContainers\{69531f70-8760-5669-b3ea-ca60d8d1109e}"
+reg delete /f "HKLM\SYSTEM\ControlSet001\Control\Print\Environments\Windows x64\Drivers\Version-3\HP LaserJet P1005"
+reg delete /f "HKLM\SYSTEM\ControlSet001\Control\Print\Printers\HP LaserJet P1005"
+reg delete /f "HKLM\SYSTEM\ControlSet001\Control\Print\Printers\HP LaserJet P1005\DsSpooler"
+reg delete /f "HKLM\SYSTEM\ControlSet001\Control\Print\Printers\HP LaserJet P1005\PnPData"
+reg delete /f "HKLM\SYSTEM\ControlSet001\Enum\SWD\PRINTENUM\{0ACA825D-057E-4785-929A-8AC47E23F886}"
+reg delete /f "HKLM\SYSTEM\ControlSet001\Enum\USBPRINT\Hewlett-PackardHP_LaserJet_P1005"
+reg delete /f "HKLM\SYSTEM\ControlSet001\Enum\USBPRINT\Hewlett-PackardHP_LaserJet_P1005\7&3a72d34c&0&USB001"
+reg delete /f "HKLM\SYSTEM\ControlSet001\Hardware Profiles\0001\System\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005"
+reg delete /f "HKLM\SYSTEM\ControlSet001\Hardware Profiles\Current\System\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005"
+reg delete /f "HKLM\SYSTEM\Setup\Upgrade\Pnp\CurrentControlSet\Control\DeviceMigration\Classes\{4d36e979-e325-11ce-bfc1-08002be10318}"
+reg delete /f "HKLM\SYSTEM\Setup\Upgrade\Pnp\CurrentControlSet\Control\DeviceMigration\Devices\SWD\PRINTENUM\{F98DF384-290F-4296-974C-1FAE3CE118FD}\Interfaces\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\Device"
+reg delete /f "HKLM\SYSTEM\Setup\Upgrade\Pnp\CurrentControlSet\Control\DeviceMigration\Devices\USB\VID_03F0&PID_3D17\BB0GXHD"
+reg delete /f "HKLM\SYSTEM\Setup\Upgrade\Pnp\CurrentControlSet\Control\DeviceMigration\Devices\USB\VID_03F0&PID_3D17\BB0GXHD\Interfaces\{28d78fad-5a12-11d1-ae5b-0000f803a8c2}\Device"
+reg delete /f "HKLM\SYSTEM\Setup\Upgrade\Pnp\CurrentControlSet\Control\DeviceMigration\Devices\USBPRINT\Hewlett-PackardHP_LaserJet_P1005"
+reg delete /f "HKLM\SYSTEM\Setup\Upgrade\Pnp\CurrentControlSet\Control\DeviceMigration\Devices\USBPRINT\Hewlett-PackardHP_LaserJet_P1005\7&3a72d34c&0&USB003"
+reg delete /f "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e979-e325-11ce-bfc1-08002be10318}\0000"
+reg delete /f "HKLM\SYSTEM\CurrentControlSet\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{0ACA825D-057E-4785-929A-8AC47E23F886}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters"
+reg delete /f "HKLM\SYSTEM\CurrentControlSet\Control\DeviceClasses\{28d78fad-5a12-11d1-ae5b-0000f803a8c2}\##?#USB#VID_03F0&PID_3D17#BB0GXHD#{28d78fad-5a12-11d1-ae5b-0000f803a8c2}\#\Device Parameters"
+reg delete /f "HKLM\SYSTEM\CurrentControlSet\Control\DeviceContainers\{69531f70-8760-5669-b3ea-ca60d8d1109e}\BaseContainers\{69531f70-8760-5669-b3ea-ca60d8d1109e}"
+reg delete /f "HKLM\SYSTEM\CurrentControlSet\Control\Print\Environments\Windows x64\Drivers\Version-3\HP LaserJet P1005"
+reg delete /f "HKLM\SYSTEM\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005"
+reg delete /f "HKLM\SYSTEM\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005\DsSpooler"
+reg delete /f "HKLM\SYSTEM\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005\PnPData"
+reg delete /f "HKLM\SYSTEM\CurrentControlSet\Enum\SWD\PRINTENUM\{0ACA825D-057E-4785-929A-8AC47E23F886}"
+reg delete /f "HKLM\SYSTEM\CurrentControlSet\Enum\USBPRINT\Hewlett-PackardHP_LaserJet_P1005"
+reg delete /f "HKLM\SYSTEM\CurrentControlSet\Enum\USBPRINT\Hewlett-PackardHP_LaserJet_P1005\7&3a72d34c&0&USB001"
+reg delete /f "HKLM\SYSTEM\CurrentControlSet\Hardware Profiles\0001\System\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005"
+reg delete /f "HKLM\SYSTEM\CurrentControlSet\Hardware Profiles\Current\System\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005"
+reg delete /f "HKCU\Printers\Defaults\{499E3A16-9856-4A55-8547-F0DEA3F6BFB5}"
+reg delete /f "HKCU\Printers\Defaults\{BC43E44A-84DD-4492-A739-81AA01168E49}"
+reg delete /f "HKCU\Printers\Settings"
+reg delete /f "HKCU\Software\Microsoft\Terminal Server Client\DefaultPrinter"
+reg delete /f "HKCU\Software\Microsoft\Windows NT\CurrentVersion\Devices"
+reg delete /f "HKCU\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts"
+reg delete /f "HKCU\Software\Microsoft\Windows NT\CurrentVersion\Windows"
+reg delete /f "HKU\.DEFAULT\Printers\Defaults\{499E3A16-9856-4A55-8547-F0DEA3F6BFB5}"
+reg delete /f "HKU\.DEFAULT\Software\Microsoft\TelemetryClient\ThrottleStore\watson\generic\generic\pnpdriverinstallerror"
+reg delete /f "HKU\.DEFAULT\Software\Microsoft\Windows NT\CurrentVersion\Devices"
+reg delete /f "HKU\.DEFAULT\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts"
+reg delete /f "HKU\.DEFAULT\Software\Microsoft\Windows NT\CurrentVersion\Windows"
+reg delete /f "HKU\S-1-5-19\Software\Microsoft\Windows NT\CurrentVersion\Devices"
+reg delete /f "HKU\S-1-5-19\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts"
+reg delete /f "HKU\S-1-5-20\Software\Microsoft\Windows NT\CurrentVersion\Devices"
+reg delete /f "HKU\S-1-5-20\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts"
+reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1000\Software\Microsoft\Windows NT\CurrentVersion\Devices"
+reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1000\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts"
+reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1004\Printers\Defaults\{499E3A16-9856-4A55-8547-F0DEA3F6BFB5}"
+reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1004\Printers\Defaults\{BC43E44A-84DD-4492-A739-81AA01168E49}"
+reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1004\Printers\Settings"
+reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1004\Software\Microsoft\Terminal Server Client\DefaultPrinter"
+reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1004\Software\Microsoft\Windows NT\CurrentVersion\Devices"
+reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1004\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts"
+reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1004\Software\Microsoft\Windows NT\CurrentVersion\Windows"
+reg delete /f "HKU\S-1-5-18\Printers\Defaults\{499E3A16-9856-4A55-8547-F0DEA3F6BFB5}"
+reg delete /f "HKU\S-1-5-18\Software\Microsoft\TelemetryClient\ThrottleStore\watson\generic\generic\pnpdriverinstallerror"
+reg delete /f "HKU\S-1-5-18\Software\Microsoft\Windows NT\CurrentVersion\Devices"
+reg delete /f "HKU\S-1-5-18\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts"
+reg delete /f "HKU\S-1-5-18\Software\Microsoft\Windows NT\CurrentVersion\Windows"
+reg delete /f "HKCC\System\CurrentControlSet\Control\Print\Printers\HP LaserJet P1005"
