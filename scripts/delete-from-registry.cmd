@@ -13,11 +13,13 @@ reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1004\Software\Micro
 reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1004\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts"
 reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1004\Software\Microsoft\Windows NT\CurrentVersion\Windows"
 
-Manual delete failed:
+Changed ownership:
 reg delete /f "HKLM\DRIVERS\DriverDatabase\DriverInfFiles\oem45.inf"
 reg delete /f "HKLM\DRIVERS\DriverDatabase\DriverPackages\hpljp1005.inf_amd64_177ef1098e88156c"
 reg delete /f "HKLM\DRIVERS\DriverDatabase\DriverPackages\hpljp1005.inf_amd64_7939d1f6fd74f7cc"
-reg delete /f "HKLM\SYSTEM\ControlSet001\Control\Class\{4d36e979-e325-11ce-bfc1-08002be10318}\0000"
+
+Ownership to be changed:
+
 reg delete /f "HKLM\SYSTEM\ControlSet001\Control\DeviceClasses\{0ecef634-6ef0-472a-8085-5ad023ecbccd}\##?#SWD#PRINTENUM#{0ACA825D-057E-4785-929A-8AC47E23F886}#{0ecef634-6ef0-472a-8085-5ad023ecbccd}\#\Device Parameters"
 reg delete /f "HKLM\SYSTEM\ControlSet001\Control\DeviceClasses\{28d78fad-5a12-11d1-ae5b-0000f803a8c2}\##?#USB#VID_03F0&PID_3D17#BB0GXHD#{28d78fad-5a12-11d1-ae5b-0000f803a8c2}\#\Device Parameters"
 reg delete /f "HKLM\SYSTEM\ControlSet001\Control\DeviceContainers\{69531f70-8760-5669-b3ea-ca60d8d1109e}\BaseContainers\{69531f70-8760-5669-b3ea-ca60d8d1109e}"
@@ -77,4 +79,4 @@ reg delete /f "HKU\S-1-5-19\Software\Microsoft\Windows NT\CurrentVersion\Devices
 reg delete /f "HKU\S-1-5-19\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts"
 reg delete /f "HKU\S-1-5-20\Software\Microsoft\Windows NT\CurrentVersion\Devices"
 reg delete /f "HKU\S-1-5-20\Software\Microsoft\Windows NT\CurrentVersion\PrinterPorts"
-
+reg delete /f "HKLM\SYSTEM\ControlSet001\Control\Class\{4d36e979-e325-11ce-bfc1-08002be10318}\0000"
