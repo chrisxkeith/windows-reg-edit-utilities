@@ -14,7 +14,6 @@ reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1004\Software\Micro
 reg delete /f "HKU\S-1-5-21-1404873359-3827526372-2707906999-1004\Software\Microsoft\Windows NT\CurrentVersion\Windows"
 
 Manual delete failed:
-reg delete /f "HKLM\DRIVERS\DriverDatabase\DriverInfFiles\oem0.inf"
 reg delete /f "HKLM\DRIVERS\DriverDatabase\DriverInfFiles\oem45.inf"
 reg delete /f "HKLM\DRIVERS\DriverDatabase\DriverPackages\hpljp1005.inf_amd64_177ef1098e88156c"
 reg delete /f "HKLM\DRIVERS\DriverDatabase\DriverPackages\hpljp1005.inf_amd64_7939d1f6fd74f7cc"
